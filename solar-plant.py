@@ -12,5 +12,5 @@ cv2.putText(img,"Uranus",(930,130),fontFace = cv2.FONT_HERSHEY_COMPLEX,fontScale
 cv2.putText(img,"Neptunes",(1080,300),fontFace = cv2.FONT_HERSHEY_COMPLEX,fontScale = 1,color = (0,255,0))
 
 cv2.imshow("solar system" ,img)
-
 cv2.waitKey(0)
+cv2.imwrite("solar-system.jpg",img)
